@@ -6,4 +6,5 @@ use FOS\RestBundle\Controller\FOSRestController;
 
 class BaseController extends FOSRestController
 {
+    
 }

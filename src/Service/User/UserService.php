@@ -2,14 +2,7 @@
 
 namespace App\Service\User;
 
-class UserService
+interface UserService
 {
-    public function getUser()
-    {
-        return [
-            'id' => 2,
-            'name' => 'tangyue',
-            'gender' => 'female',
-        ];
-    }
+    public function getUser();
 }

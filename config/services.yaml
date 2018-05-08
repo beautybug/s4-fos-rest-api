@@ -28,5 +28,5 @@ services:
     # please note that last definitions always *replace* previous ones
 
     user.userService:
-        alias: App\Service\User\UserService
+        alias: App\Service\User\Impl\UserServiceImpl
         public: true
